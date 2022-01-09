@@ -1,0 +1,42 @@
+body{
+	background-color: #fff;
+}
+
+.ctr{
+	background-color: #fff;
+    border-radius: 20px;
+}
+
+.formDesignIn{
+	color: #000;
+	box-shadow: 1px 1px 5px #000;
+	border-radius: 15px;
+}
+
+.up{
+	font-size: 30px;
+	/*text-align: center;*/
+}
+
+.xyz{
+	padding-bottom: 20px;
+}
+
+.input-group-text{
+	background-color: #212529;
+    color: #fff;
+    width: 100px;
+    text-align: center;
+}
+
+.form-control{
+	outline: none;
+}
+
+.list-group{
+    max-height: 300px;
+    margin-bottom: 10px;
+    /*overflow:scroll;*/
+    overflow-y:auto;
+    -webkit-overflow-scrolling: touch;
+}

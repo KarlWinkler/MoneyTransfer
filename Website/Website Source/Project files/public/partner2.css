@@ -1,0 +1,126 @@
+.myF{
+
+  font-size: 100px;
+}
+
+.myColor{
+  background-color: #f26464;
+}
+
+.form-group{
+  width: 70%;
+}
+
+body{
+  background-color: #fff;
+  background-image: url(https://www.smartstatz.com/wp-content/uploads/2021/09/banking-and-financial-bg.jpg);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:#000;
+}
+
+
+a{
+  text-decoration: none;
+  color: #394455
+}
+
+.ctr{
+  border-radius: 20px;
+  background-color: rgba(221, 229, 238, 0.5);
+  box-shadow: inset 0px 0px 50px 5px #dde5ee;
+  padding: 10px;
+}
+
+.card{
+
+  margin:20px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0px 1px 2px #000;
+  color: #394455;
+}
+
+/* home card classes */
+
+.home-card-icon{
+  margin-top: 12%;
+}
+
+.home-button{
+  font-size: larger;
+  text-decoration: none;
+  color: #394455;
+}
+
+.home-button:hover{
+  text-decoration: none;
+  color: #dde3ee;
+}
+
+.user-footer{
+  display: block;
+  /* background-color: #394455; */
+  margin-top: 195px;
+}
+
+.icon{
+  font-size: 30px;
+  padding: 10px;
+}
+
+.title{
+    padding: 10px;
+    font-size: 25px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.descreption{
+    padding: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 130px;
+    font-size: 15px;
+}
+
+.card:hover{
+  background-color: #212529;
+  color : #FFF;
+}
+
+
+
+@media only screen and (max-width: 1300px) {
+  body {
+    background-color: #f8f9fa;
+  }
+  .descreption{
+  display: none;
+   }
+   
+  .title{
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  body {
+    background-color: #f8f9fa;
+  }
+  .descreption{
+  display: none;
+   }
+   .ctr{
+    background-color: #f8f9fa;
+    box-shadow: none;
+   }
+   .card{
+    margin: 5px;
+   }
+  .title{
+    font-size: 15px;
+  }
+}
